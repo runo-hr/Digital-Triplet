@@ -80,7 +80,7 @@ Every authorized user has a folder with their image. When the program runs, it p
 As the number of authorized users increases, so does the number of images to be processed. This means more processing time and it becomes increasingly difficult for the program to work in real time.
 #### Solution
 Use a face cascade classifier from open-cv to extract faces from images of known users. Use these extracted faces as reference images since they are smaller in size than selfies and full size images. A smaller image means shorter processing times  
-If the program still has challenges working in real time, switch it up, elevate, and use deep learning models like a pro!😎
+If the program still has challenges working in real time, look into using deep learning models.
 
 ### Through transfer learning
 This is possibly the most powerful way to do face-recognition and other image classification tasks eg mask detection. It involves using pre-trained deep learning models and 'transfering' the knowledge learned on those tasks to similar tasks. Deep learning models can work in realtime even with increased number of authorized users. However, their accuracy is dependent on how well the models learns to generalize during training.  
